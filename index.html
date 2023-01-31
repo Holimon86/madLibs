@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./app.js"></script>
+    <title>Mad Libs</title>
+</head>
+<body>
+    <div id="matrix">
+    <h1>Super Fun Mad Lib</h1>
+<form onsubmit="return false" action="">
+    <ul>
+        <li><input type="text" placeholder="noun" id="textOne"></li>
+        <li><input type="text" placeholder="plural noun" id="textTwo"></li>
+        <li><input type="text" placeholder="verb (present tense)" id="textThree"></li>
+        <li><input type="text" placeholder="verb (present tense)" id="textFour"></li>
+        <li><input type="text" placeholder="part of body (plural)" id="textFive"></li>
+        <li><input type="text" placeholder="adjective" id="textSix"></li>
+        <li><input type="text" placeholder="plural noun" id="textSeven"></li>
+        <li><input type="text" placeholder="adjective" id="textEight"></li>
+        <li><button type="button" id="button" onclick="createParagraph()">Let the fun begin!</button></li>
+    </ul>
+    </div>
+</form> 
+<div id="answer"></div>
+
+</body>
+</html>
